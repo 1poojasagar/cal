@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript(cal)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="calculator">
+  
+        <textarea id="display-input" placeholder="0"></textarea>
+      <div id="buttons">
+        <button class="operator" onclick="addToDisplay('+')">+</button>
+        <button class="operator" onclick="addToDisplay('-')">-</button>
+        <button class="operator" onclick="addToDisplay('*')">*</button>
+        <button class="operator" onclick="addToDisplay('/')">/</button>
+
+        <button class="number" onclick="addToDisplay('7')">7</button>
+        <button class="number" onclick="addToDisplay('8')">8</button>
+        <button class="number" onclick="addToDisplay('9')">9</button><br>
+        
+        <button class="number" onclick="addToDisplay('4')">4</button>
+        <button class="number" onclick="addToDisplay('5')">5</button>
+        <button class="number" onclick="addToDisplay('6')">6</button><br>
+        
+        <button class="number" onclick="addToDisplay('1')">1</button>
+        <button class="number" onclick="addToDisplay('2')">2</button>
+        <button class="number" onclick="addToDisplay('3')">3</button><br>
+        
+        <button class="number" onclick="addToDisplay('0')">0</button>
+        <button class="number" onclick="addToDisplay('.')">.</button>
+        <button class="clear" onclick="clearDisplay()">C</button><br>
+        
+        <button class="equals" onclick="calculate()">=</button><br>
+
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
